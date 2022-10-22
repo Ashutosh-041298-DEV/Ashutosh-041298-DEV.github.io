@@ -1,6 +1,7 @@
 .container {
     display: flex;
-    padding: 70px 12%;
+    padding: 75px 12%;
+    margin-top:10px
   }
   
   .firstChild > div {

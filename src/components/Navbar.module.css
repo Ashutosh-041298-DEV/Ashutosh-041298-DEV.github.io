@@ -11,11 +11,12 @@
     background-color: white;
     justify-content: center;
   }
+ 
   
   .firstChild {
     flex: 1.2;
   }
-  
+   
   .secondChild {
     flex: 1;
     display: flex;

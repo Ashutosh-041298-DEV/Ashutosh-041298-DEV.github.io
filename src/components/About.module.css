@@ -1,12 +1,16 @@
 .container {
-    padding: 0px 15% 30px 15%;
+    padding: 70px 25%;
+    margin-top: 30px;
   }
   
   .heading {
     /* color: blueviolet; */
     font-size: 36px;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
+  }
+  .heading:hover{
+    text-decoration: underline;
   }
   
   .heading2 {
@@ -22,6 +26,7 @@
   
   .mail {
     margin-top: 20px;
+  
     text-align: center;
     color: #122734;
   }
@@ -31,6 +36,14 @@
     height: 23px;
     width: 23px;
     cursor: pointer;
+  }
+  .email{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: large;
+  }
+  .email:hover{
+    text-decoration: underline;
   }
   
   
@@ -80,7 +93,7 @@
   }
   
   
-  @media only screen and (min-width: 321px) and (max-width: 375px) {
+  @media only screen and (min-width: 320px) and (max-width: 380px) {
     .container {
       padding: 70px 7%;
     }
@@ -103,7 +116,7 @@
   }
   
   
-  @media only screen and (min-width: 376px) and (max-width: 425px) {
+  @media only screen and (min-width: 380px) and (max-width: 430px) {
     .container {
       padding: 70px 7%;
     }

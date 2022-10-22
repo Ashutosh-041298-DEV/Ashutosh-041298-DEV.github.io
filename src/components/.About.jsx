@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 
 export const About = () => {
-    const copy="https://huzaifa-sheikh.netlify.app/static/media/copy.aab2df846ca072fb67ff.png"
+    const copy="https://www.pngwing.com/en/free-png-azdkk"
   return (
     <div id="about" className={styles.container}>
       <h1 className={styles.heading}>About</h1>
@@ -11,7 +11,14 @@ export const About = () => {
       Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS, JavaScript, React, and Redux. Passionate about implementing and launching new projects. looking to get hired and build experience and get new skills along the way then use those skills to earn myself a good position
       </div>
       <div className={styles.mail}>
-        Drop a mail @ Ashutoshm439@gmail.com
+        Drop a mail @ <span className={styles.email}>Ashutoshm439@gmail.com</span>
+        <span
+          onClick={() => {
+            navigator.clipboard.writeText("Ashutoshm439@gmail.com");
+          }}
+        >
+          <img src={`https://cdn-icons-png.flaticon.com/512/3991/3991554.png`} alt="" />
+        </span>
        
       </div>
     </div>

@@ -20,10 +20,10 @@ export const Home = () => {
         </div>
         <div className={styles.iconDiv}>
           <a target="_blank" rel="noreferrer" style={{ display: "block" }}>
-            <p>Linkedin</p>
+            <img src={`https://cdn-icons-png.flaticon.com/512/25/25231.png`} alt="" />
           </a>
           <a style={{ display: "block" }} target="_blank" rel="noreferrer">
-            <p>Github</p>
+            <img src={`https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG20.png`} alt="" />
           </a>
         </div>
       </div>
