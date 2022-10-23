@@ -96,30 +96,31 @@ export const Projects = () => {
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src="https://user-images.githubusercontent.com/97525279/167412371-cd534233-dfd0-400c-89fb-79a8e2b6daa9.png"
+              src={drum}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>NDTV</h2>
+          <h2>Drumkit website</h2>
           <ul>
-            <li>Variety of news pages like Latest, Covid, India etc</li>
-            <li>Shows Static + Video headlines</li>
-            <li>Provided proper sections for advertisements</li>
+            <li>play sounds using both keyboard </li>
+            <li>Touch buttons are available for playing sound</li>
+            <li>Create your own music</li>
+            
           </ul>
-          <div>Tech stack- React | Node.js | HTML | CSS | Git</div>
+          <div>ES6 | Html | Css | Vanilla JS</div>
           <br />
           <button
             onClick={() => {
-              window.open("https://csb-tdbg0f.netlify.app/", "_blank");
+              window.open("https://naughty-sinoussi-58c007.netlify.app/", "_blank");
             }}
           >
             Website
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/huzaifa621/ndtv", "_blank");
+              window.open("", "_blank");
             }}
           >
             GitHub
