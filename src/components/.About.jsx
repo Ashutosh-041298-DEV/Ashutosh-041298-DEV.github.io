@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 
 export const About = () => {
-    const copy="https://www.pngwing.com/en/free-png-azdkk"
+    
   return (
     <div id="about" className={styles.container}>
       <h1 className={styles.heading}>About</h1>

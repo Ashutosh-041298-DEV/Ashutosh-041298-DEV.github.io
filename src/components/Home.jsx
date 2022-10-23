@@ -1,11 +1,8 @@
 import styles from "./Home.module.css";
+import profile from "../images/profile.png"
 
 export const Home = () => {
-  const profile =
-    "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png";
-
-  const github =
-    "https://github.githubassets.com/images/modules/logos_page/Octocat.png";
+  
   return (
     <div id="home" className={styles.container}>
       <div style={{ flex: "1" }} className={styles.firstChild}>
@@ -31,7 +28,7 @@ export const Home = () => {
         <img
           src={profile}
           alt="profile_img"
-          width={"200px !important"}
+         
           style={{ borderRadius: "50%" }}
         />
       </div>
