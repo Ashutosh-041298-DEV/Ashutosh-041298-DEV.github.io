@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import profile from "../images/profile.png"
+import ReactTypingEffect from "react-typing-effect"
 
 export const Home = () => {
   
@@ -11,7 +12,25 @@ export const Home = () => {
         <div>
           <span style={{ color: "blueviolet" }}>Ashutosh</span>
         </div>
-        <div>FullStack Developer</div>
+        <ReactTypingEffect
+        text={["A Front-End Developer", " A Back-End Developer", "A Full-Stack Developer"]}
+        cursorRenderer={cursor => <h1>{cursor}</h1>}
+        displayTextRenderer={(text, i) => {
+          return (
+            <h1 style={{fontSize:"35px",marginTop:"0px",marginBottom:"0px"}}>
+              {text.split('').map((char, i) => {
+                const key = `${i}`;
+                return (
+                  <span
+                    key={key}
+                    style={{color: 'black'}}
+                  >{char}</span>
+                );
+              })}
+            </h1>
+          );
+        }}        
+      />
         <div>
           <button className={styles.resumeBtn}>Resume</button>
         </div>
