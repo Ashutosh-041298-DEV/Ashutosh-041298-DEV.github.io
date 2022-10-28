@@ -32,7 +32,12 @@ export const Home = () => {
         }}        
       />
         <div>
-          <button className={styles.resumeBtn}>Resume</button>
+          <button className={styles.resumeBtn} onClick={()=>{
+            window.open(
+              "https://drive.google.com/file/d/1L1y-rCfbtQCM79IbNfX5x2EcEqlfcNbR/view?usp=sharing",
+              "_blank"
+            );
+          }}>Resume</button>
         </div>
         <div className={styles.iconDiv}>
           <a target="_blank" rel="noreferrer" style={{ display: "block" }}>
