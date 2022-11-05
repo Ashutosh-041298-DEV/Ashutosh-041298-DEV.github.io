@@ -20,8 +20,8 @@ function Calender() {
         });
       }
   return (
-    <div
-      style={{ alignItems: "center", marginBottom: "10%", marginLeft: "22%" }}
+    <div align="center"
+      // style={{align:"center",marginLeft:"10%",marginRight:"5%"}}
     >
       <h2>GitHub Contributions</h2>
       <GitHubCalendar
@@ -29,7 +29,7 @@ function Calender() {
         color="#4b0f83"
         blockSize={17}
         fontSize={20}
-        transformData={selectLastHalfYear}
+        
         
       />
       <ReactTooltip delayShow={20} />
