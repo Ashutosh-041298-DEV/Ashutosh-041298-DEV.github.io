@@ -26,11 +26,13 @@ export const Projects = () => {
           <ul>
             <li>Home, Login and Sign up for company and students</li>
            
-            <li>cart and checkout</li>
-            <li>filter and sorting of Data in jobs Section</li>
+            <li>Cart and checkout</li>
+            <li>Filter and sorting of Data in jobs Section</li>
           </ul>
-          <div>
+          <div  >
+            <b> 
             Tech stack- HTML | CSS | ES6 | Github
+            </b>
           </div>
           <br />
           <button
@@ -70,7 +72,7 @@ export const Projects = () => {
             <li>Add numerous filtering and sorting functionalities.</li>
             <li>Created Cart and Checkout page with payment page </li>
           </ul>
-          <div>Tech stack- HTML | CSS | ES6 | Git</div>
+          <div  ><b>Tech stack- HTML | CSS | ES6 | Git</b></div>
           <br />
           <button
             onClick={() => {
@@ -104,12 +106,12 @@ export const Projects = () => {
         <div className={styles.afterImg}>
           <h2>Kindmeal.my website</h2>
           <ul>
-           <li>Login and Signup functionality</li>
-           <li>pagination and Sorting </li>
-           <li>users page with json-server</li>
-           <li>backend Heroku server</li>
+           <li>Login and Signup functionality.</li>
+           <li>Pagination and Sorting.</li>
+           <li>Users page with json-server.</li>
+           <li>Backend Heroku server.</li>
           </ul>
-          <div>Tech stack- React | Json-server | heroku | styled-components | chakra-ui</div>
+          <div  ><b>Tech stack- React | Json-server | heroku | styled-components | chakra-ui</b></div>
           <br />
           <button
             onClick={() => {
@@ -144,11 +146,11 @@ export const Projects = () => {
           <h2>Desktime Website</h2>
           <ul>
            <li>Login and Signup functionality</li>
-           <li>navbar and Footer </li>
+           <li>Navbar and Footer </li>
            <li>Calender using Chakra ui</li>
            <li>Navbar change on the basis of user authentication</li>
           </ul>
-          <div>Tech stack- React JS | Firebase | Chakra-ui</div>
+          <div  ><b>Tech stack- React JS | Firebase | Chakra-ui</b></div>
           <br />
           <button
             onClick={() => {
@@ -188,7 +190,7 @@ export const Projects = () => {
             <li>Login and signup</li>
             
           </ul>
-          <div>Tech stack- React Js| Json-Server |chakra-ui</div>
+          <div  ><b>Tech stack- React Js| Json-Server |chakra-ui</b></div>
           <br />
           <button
             onClick={() => {
@@ -228,7 +230,7 @@ export const Projects = () => {
             <li>Create your own music</li>
             
           </ul>
-          <div>ES6 | Html | Css | Vanilla JS</div>
+          <div  ><b>Teck Stack:-ES6 | HTML | CSS | Vanilla Js</b></div>
           <br />
           <button
             onClick={() => {

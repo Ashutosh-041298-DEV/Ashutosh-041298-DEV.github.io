@@ -60,6 +60,33 @@ export const Skills = () => {
             />
           </a>
         </div>
+        <div>
+          {/* 7 */}
+          <a href="https://www.mongodb.com/">
+            <img
+              src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          {/* 8 */}
+          <a href="https://www.getbootstrap.com/">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          {/* 9 */}
+          <a href="https://www.git-scm.com/">
+            <img
+              src="https://chiranjeev-thapliyal.vercel.app/svg/git.svg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
