@@ -16,12 +16,16 @@ function App() {
       <Skills />
 
       <Projects />
-      <Calender />
       <div>
         <h1 align="center">📊 My Github Stats</h1>
         <br />
+        <Calender />
+        <br />
         <p align="center">
-          <a className="stat" href="https://github.com/Ashutosh-041298-DEV/github-readme-stats">
+          <a
+            className="stat"
+            href="https://github.com/Ashutosh-041298-DEV/github-readme-stats"
+          >
             <img
               alt="Ashutosh-041298-DEV Top Languages"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashutosh-041298-DEV&langs_count=8&count_private=true&layout=compact&theme=synthwave"
@@ -30,7 +34,10 @@ function App() {
         </p>
         <br />
         <p align="center">
-          <a className="stat" href="https://github.com/Ashutosh-041298-DEV/github-readme-streak-stats">
+          <a
+            className="stat"
+            href="https://github.com/Ashutosh-041298-DEV/github-readme-streak-stats"
+          >
             <img
               title="🔥 Get streak stats for your profile at git.io/streak-stats"
               alt="Ashutosh-041298-DEV streak"
@@ -42,28 +49,16 @@ function App() {
         <br />
         <br />
         <p align="center">
-          <a className="stat" href="https://github.com/Ashutosh-041298-DEV/github-readme-stats">
+          <a
+            className="stat"
+            href="https://github.com/Ashutosh-041298-DEV/github-readme-stats"
+          >
             <img
               alt="Ashutosh-041298-DEV Github Stats"
-              src="https://github-readme-stats.vercel.app/api?username=Ashutosh-041298-DEV&show_icons=true&locale=en&theme=synthwave"/>
-          </a>
-        </p>
-        <h6 align="center">
-          <br />
-          <br />
-
-          <br />
-
-          <a className="stat" href="https://github.com/Ashutosh-041298-DEV/github-readme-activity-graph">
-            <img
-              alt="Ashutosh-041298-DEV Activity Graph"
-              src="https://activity-graph.herokuapp.com/graph?username=Ashutosh-041298-DEV&bg_color=2B213A&color=E4289E&line=C5C9CF&point=EE8539&hide_border=true"
+              src="https://github-readme-stats.vercel.app/api?username=Ashutosh-041298-DEV&show_icons=true&locale=en&theme=synthwave"
             />
           </a>
-
-          <br />
-          <br />
-        </h6>
+        </p>
       </div>
       <Contact />
     </div>

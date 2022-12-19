@@ -5,6 +5,8 @@ export const Contact = () => {
     <div id="contact" className={styles.container}>
       <h1 className={styles.heading}>Get in touch</h1>
       <h1 className={styles.heading2}>Ashutosh Mahapatra</h1>
+      <h2 className={styles.heading2}>ashutoshm439@gmail.com</h2>
+      <h2 className={styles.heading2}>+91-7024986867</h2>
       <div className={styles.allLinksDiv}>
         <div>
           <a
@@ -24,20 +26,7 @@ export const Contact = () => {
             <div className={styles.platformLinks}>GitHub</div>
           </a>
         </div>
-        <div>
-          <a
-            rel="noreferrer"
-            target="_blank"
-           
-          >
-            <div className={styles.platformLinks}>E-mail</div>
-          </a>
-        </div>
-        <div>
-          <a rel="noreferrer" target="_blank" href="tel:+917024986867">
-            <div className={styles.platformLinks}>Phone</div>
-          </a>
-        </div>
+        
       </div>
     </div>
   );
