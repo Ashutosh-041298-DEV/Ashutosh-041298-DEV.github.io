@@ -40,10 +40,10 @@ export const Home = () => {
           }}>Resume</button>
         </div>
         <div className={styles.iconDiv}>
-          <a target="_blank" rel="noreferrer" style={{ display: "block" }}>
+          <a href="https://github.com/Ashutosh-041298-DEV" target="_blank" rel="noreferrer" style={{ display: "block" }}>
             <img src={`https://cdn-icons-png.flaticon.com/512/25/25231.png`} alt="" />
           </a>
-          <a style={{ display: "block" }} target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/ashutosh-mahapatra-680943144/" style={{ display: "block" }} target="_blank" rel="noreferrer">
             <img src={`https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG20.png`} alt="" />
           </a>
         </div>

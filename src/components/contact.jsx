@@ -10,23 +10,22 @@ export const Contact = () => {
       <div className={styles.allLinksDiv}>
         <div>
           <a
+            href="https://www.linkedin.com/in/ashutosh-mahapatra-680943144/"
             target="_blank"
             rel="noreferrer"
-            
           >
             <div className={styles.platformLinks}>Linkedin</div>
           </a>
         </div>
         <div>
           <a
+            href="https://github.com/Ashutosh-041298-DEV"
             rel="noreferrer"
             target="_blank"
-           
           >
             <div className={styles.platformLinks}>GitHub</div>
           </a>
         </div>
-        
       </div>
     </div>
   );
