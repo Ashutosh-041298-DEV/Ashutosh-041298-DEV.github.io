@@ -34,7 +34,7 @@ export const Home = () => {
         <div>
           <button className={styles.resumeBtn} onClick={()=>{
             window.open(
-              "https://drive.google.com/file/d/1L1y-rCfbtQCM79IbNfX5x2EcEqlfcNbR/view?usp=sharing",
+              "https://drive.google.com/file/d/1KeeEOAZcVcIfdFrIUiU7ZYAbQo9CAGKo/view?usp=share_link",
               "_blank"
             );
           }}>Resume</button>

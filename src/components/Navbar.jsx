@@ -5,10 +5,7 @@ export const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.firstChild}>
-        <img
-          src={logo}
-          alt=""
-        />
+        <img src={logo} alt="" />
       </div>
       <div className={styles.secondChild}>
         <div>
