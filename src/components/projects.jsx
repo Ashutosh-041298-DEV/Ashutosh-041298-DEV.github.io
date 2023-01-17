@@ -1,10 +1,10 @@
+import overstock from "../images/overstock.png"
 import styles from "./projects.module.css";
-import bobby from "../images/bobbybrown.png"
+import hichat from "../images/hichat.png";
+import shower from "../images/shower.png";
 import desk from "../images/desktime.png"
 import drum from "../images/Drumkit.png"
 import envoy from "../images/envoy.png"
-import intern from "../images/interntheory.png"
-import kind from "../images/kind.png"
 export const Projects = () => {
     
   return (
@@ -16,35 +16,36 @@ export const Projects = () => {
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src={intern}
+              src={overstock}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>Intern-Theory website</h2>
+          <h2>OverStock.com Website</h2>
           <ul>
-            <li>Home, Login and Sign up for company and students</li>
-           
-            <li>Cart and checkout</li>
-            <li>Filter and sorting of Data in jobs Section</li>
+            <li>Homepage,Navbar, Footer all responsive </li>           
+            <li>Login and sign Up using Firebase with Admin side</li>
+            <li>Filter and sorting of products with single pages for each product</li>
+            <li>Addition of new products from admin side </li>
+            <li>Cart and Checkout </li>
           </ul>
           <div  >
             <b> 
-            Tech stack- HTML | CSS | ES6 | Github
+            Tech stack- React JS | Chakra Ui | CSS | Json-server | git
             </b>
           </div>
           <br />
           <button
             onClick={() => {
-              window.open("https://elegant-newton-1f5d84.netlify.app/", "_blank");
+              window.open("https://overstock-pi.netlify.app/", "_blank");
             }}
           >
             Website
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/interntheory", "_blank");
+              window.open("https://github.com/Ashutosh-041298-DEV/overstock.com", "_blank");
             }}
           >
             GitHub
@@ -59,25 +60,25 @@ export const Projects = () => {
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src={bobby}
+              src={hichat}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>Bobbi-Brown Website</h2>
+          <h2>Hi-chat-app</h2>
           <ul>
-            <li>Created the database and connected it with the files.</li>
-            <li>Developed the Product and Product details page.</li>
-            <li>Add numerous filtering and sorting functionalities.</li>
-            <li>Created Cart and Checkout page with payment page </li>
+            <li>SASS based product created using Nextjs and Socket.io</li>
+            <li>Login and Signup using Firebase authentication.</li>
+            <li>Person to person communication with encrypted chats.</li>
+            <li>Storage of chats using cloud firestore with last seen data for each user</li>
           </ul>
-          <div  ><b>Tech stack- HTML | CSS | ES6 | Git</b></div>
+          <div  ><b>Tech stack- Next JS | Firebase Auth | Cloud Firestore | Socket.io</b></div>
           <br />
           <button
             onClick={() => {
               window.open(
-                "https://luxury-kataifi-e1912d.netlify.app/",
+                "https://hi-chat-app-six.vercel.app/",
                 "_blank"
               );
             }}
@@ -86,7 +87,7 @@ export const Projects = () => {
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/Bobbi-brown-clone-website", "_blank");
+              window.open("https://github.com/Ashutosh-041298-DEV/hi-chat-app", "_blank");
             }}
           >
             GitHub
@@ -98,25 +99,26 @@ export const Projects = () => {
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src={kind}
+              src={shower}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>Kindmeal.my website</h2>
+          <h2>Sparkling Showers</h2>
           <ul>
-           <li>Login and Signup functionality.</li>
-           <li>Pagination and Sorting.</li>
-           <li>Users page with json-server.</li>
-           <li>Backend Heroku server.</li>
+           <li>Login and Signup functionality with custom backend made using express</li>
+           <li>Homepage navbar and footer with Chakra ui and completely responsive</li>
+           <li>Admin side add and delete products</li>
+           <li>Backend using Mongo DB deployed on cyclic</li>
+           <li>product pages with single pages and review section</li>
           </ul>
-          <div  ><b>Tech stack- React | Json-server | heroku | styled-components | chakra-ui</b></div>
+          <div  ><b>Tech stack- React | Express JS | Mongo DB | chakra-ui | Node JS | CSS</b></div>
           <br />
           <button
             onClick={() => {
               window.open(
-                "https://scenic-friends-2114.netlify.app/",
+                "https://mybathnbody.vercel.app/",
                 "_blank"
               );
             }}
@@ -125,7 +127,7 @@ export const Projects = () => {
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/scenic-friends-2114", "_blank");
+              window.open("https://github.com/Ashutosh-041298-DEV/Sparkling-Showers", "_blank");
             }}
           >
             GitHub
