@@ -38,7 +38,7 @@ export const Projects = () => {
           <br />
           <button
             onClick={() => {
-              window.open("https://overstock-pi.netlify.app/", "_blank");
+              window.open("https://overstock-com-pi.vercel.app/", "_blank");
             }}
           >
             Website
